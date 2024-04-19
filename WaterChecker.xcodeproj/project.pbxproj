@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3093A69B2BD2A7050030ADC6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3093A69A2BD2A7050030ADC6 /* WidgetKit.framework */; };
+		3093A69D2BD2A7050030ADC6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3093A69C2BD2A7050030ADC6 /* SwiftUI.framework */; };
+		3093A6A02BD2A7050030ADC6 /* WaterWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093A69F2BD2A7050030ADC6 /* WaterWidgetsBundle.swift */; };
+		3093A6A42BD2A7050030ADC6 /* WaterWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093A6A32BD2A7050030ADC6 /* WaterWidgets.swift */; };
+		3093A6A82BD2A7080030ADC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3093A6A72BD2A7080030ADC6 /* Assets.xcassets */; };
+		3093A6AC2BD2A7080030ADC6 /* WaterWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3093A6982BD2A7050030ADC6 /* WaterWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3093A6B22BD2A7EB0030ADC6 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093A6B12BD2A7EB0030ADC6 /* Provider.swift */; };
+		3093A6B42BD2A9580030ADC6 /* WaterWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093A6B32BD2A9580030ADC6 /* WaterWidgetEntryView.swift */; };
+		3093A6B52BD2AEA60030ADC6 /* BottleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899684A2AE5BF58001C3028 /* BottleView.swift */; };
+		3093A6B62BD2B0190030ADC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7899683B2AE5B799001C3028 /* Assets.xcassets */; };
+		3093A6B82BD2B79F0030ADC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789968392AE5B798001C3028 /* ContentView.swift */; };
+		3093A6B92BD2C3420030ADC6 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899684C2AE5BFC5001C3028 /* LogManager.swift */; };
+		3093A6BA2BD2C3B10030ADC6 /* WaterDrops.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 789968422AE5B799001C3028 /* WaterDrops.xcdatamodeld */; };
+		3093A6BB2BD2C3F00030ADC6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789968402AE5B799001C3028 /* Persistence.swift */; };
+		3093A6BF2BD2D0160030ADC6 /* LogWaterIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093A6BE2BD2D0160030ADC6 /* LogWaterIntent.swift */; };
+		3093A6C02BD2D0160030ADC6 /* LogWaterIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093A6BE2BD2D0160030ADC6 /* LogWaterIntent.swift */; };
+		789968382AE5B798001C3028 /* WaterDropsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789968372AE5B798001C3028 /* WaterDropsApp.swift */; };
+		7899683A2AE5B798001C3028 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789968392AE5B798001C3028 /* ContentView.swift */; };
+		7899683C2AE5B799001C3028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7899683B2AE5B799001C3028 /* Assets.xcassets */; };
+		7899683F2AE5B799001C3028 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7899683E2AE5B799001C3028 /* Preview Assets.xcassets */; };
+		789968412AE5B799001C3028 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789968402AE5B799001C3028 /* Persistence.swift */; };
+		789968442AE5B799001C3028 /* WaterDrops.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 789968422AE5B799001C3028 /* WaterDrops.xcdatamodeld */; };
+		7899684B2AE5BF58001C3028 /* BottleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899684A2AE5BF58001C3028 /* BottleView.swift */; };
+		7899684D2AE5BFC5001C3028 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899684C2AE5BFC5001C3028 /* LogManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3093A6AA2BD2A7080030ADC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7899682C2AE5B798001C3028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3093A6972BD2A7050030ADC6;
+			remoteInfo = WaterWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3093A6B02BD2A7080030ADC6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3093A6AC2BD2A7080030ADC6 /* WaterWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3093A6982BD2A7050030ADC6 /* WaterWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WaterWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3093A69A2BD2A7050030ADC6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3093A69C2BD2A7050030ADC6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3093A69F2BD2A7050030ADC6 /* WaterWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWidgetsBundle.swift; sourceTree = "<group>"; };
+		3093A6A32BD2A7050030ADC6 /* WaterWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWidgets.swift; sourceTree = "<group>"; };
+		3093A6A72BD2A7080030ADC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3093A6A92BD2A7080030ADC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3093A6B12BD2A7EB0030ADC6 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		3093A6B32BD2A9580030ADC6 /* WaterWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWidgetEntryView.swift; sourceTree = "<group>"; };
+		3093A6BC2BD2C7370030ADC6 /* WaterChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WaterChecker.entitlements; sourceTree = "<group>"; };
+		3093A6BD2BD2C7A60030ADC6 /* WaterWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WaterWidgetsExtension.entitlements; sourceTree = "<group>"; };
+		3093A6BE2BD2D0160030ADC6 /* LogWaterIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWaterIntent.swift; sourceTree = "<group>"; };
+		789968342AE5B798001C3028 /* WaterChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		789968372AE5B798001C3028 /* WaterDropsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropsApp.swift; sourceTree = "<group>"; };
+		789968392AE5B798001C3028 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7899683B2AE5B799001C3028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7899683E2AE5B799001C3028 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		789968402AE5B799001C3028 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		789968432AE5B799001C3028 /* WaterDrops.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaterDrops.xcdatamodel; sourceTree = "<group>"; };
+		7899684A2AE5BF58001C3028 /* BottleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleView.swift; sourceTree = "<group>"; };
+		7899684C2AE5BFC5001C3028 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3093A6952BD2A7050030ADC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3093A69D2BD2A7050030ADC6 /* SwiftUI.framework in Frameworks */,
+				3093A69B2BD2A7050030ADC6 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789968312AE5B798001C3028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3093A6992BD2A7050030ADC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3093A69A2BD2A7050030ADC6 /* WidgetKit.framework */,
+				3093A69C2BD2A7050030ADC6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3093A69E2BD2A7050030ADC6 /* WaterWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				3093A69F2BD2A7050030ADC6 /* WaterWidgetsBundle.swift */,
+				3093A6A32BD2A7050030ADC6 /* WaterWidgets.swift */,
+				3093A6A72BD2A7080030ADC6 /* Assets.xcassets */,
+				3093A6A92BD2A7080030ADC6 /* Info.plist */,
+				3093A6B12BD2A7EB0030ADC6 /* Provider.swift */,
+				3093A6B32BD2A9580030ADC6 /* WaterWidgetEntryView.swift */,
+				3093A6BE2BD2D0160030ADC6 /* LogWaterIntent.swift */,
+			);
+			path = WaterWidgets;
+			sourceTree = "<group>";
+		};
+		7899682B2AE5B798001C3028 = {
+			isa = PBXGroup;
+			children = (
+				3093A6BD2BD2C7A60030ADC6 /* WaterWidgetsExtension.entitlements */,
+				3093A6BC2BD2C7370030ADC6 /* WaterChecker.entitlements */,
+				789968362AE5B798001C3028 /* WaterDrops */,
+				3093A69E2BD2A7050030ADC6 /* WaterWidgets */,
+				3093A6992BD2A7050030ADC6 /* Frameworks */,
+				789968352AE5B798001C3028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		789968352AE5B798001C3028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789968342AE5B798001C3028 /* WaterChecker.app */,
+				3093A6982BD2A7050030ADC6 /* WaterWidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		789968362AE5B798001C3028 /* WaterDrops */ = {
+			isa = PBXGroup;
+			children = (
+				7899684C2AE5BFC5001C3028 /* LogManager.swift */,
+				7899684A2AE5BF58001C3028 /* BottleView.swift */,
+				789968372AE5B798001C3028 /* WaterDropsApp.swift */,
+				789968392AE5B798001C3028 /* ContentView.swift */,
+				7899683B2AE5B799001C3028 /* Assets.xcassets */,
+				789968402AE5B799001C3028 /* Persistence.swift */,
+				789968422AE5B799001C3028 /* WaterDrops.xcdatamodeld */,
+				7899683D2AE5B799001C3028 /* Preview Content */,
+			);
+			path = WaterDrops;
+			sourceTree = "<group>";
+		};
+		7899683D2AE5B799001C3028 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7899683E2AE5B799001C3028 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3093A6972BD2A7050030ADC6 /* WaterWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3093A6AD2BD2A7080030ADC6 /* Build configuration list for PBXNativeTarget "WaterWidgetsExtension" */;
+			buildPhases = (
+				3093A6942BD2A7050030ADC6 /* Sources */,
+				3093A6952BD2A7050030ADC6 /* Frameworks */,
+				3093A6962BD2A7050030ADC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterWidgetsExtension;
+			productName = WaterWidgetsExtension;
+			productReference = 3093A6982BD2A7050030ADC6 /* WaterWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		789968332AE5B798001C3028 /* WaterChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789968472AE5B799001C3028 /* Build configuration list for PBXNativeTarget "WaterChecker" */;
+			buildPhases = (
+				789968302AE5B798001C3028 /* Sources */,
+				789968312AE5B798001C3028 /* Frameworks */,
+				789968322AE5B798001C3028 /* Resources */,
+				3093A6B02BD2A7080030ADC6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3093A6AB2BD2A7080030ADC6 /* PBXTargetDependency */,
+			);
+			name = WaterChecker;
+			productName = WaterDrops;
+			productReference = 789968342AE5B798001C3028 /* WaterChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7899682C2AE5B798001C3028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3093A6972BD2A7050030ADC6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					789968332AE5B798001C3028 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7899682F2AE5B798001C3028 /* Build configuration list for PBXProject "WaterChecker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7899682B2AE5B798001C3028;
+			productRefGroup = 789968352AE5B798001C3028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				789968332AE5B798001C3028 /* WaterChecker */,
+				3093A6972BD2A7050030ADC6 /* WaterWidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3093A6962BD2A7050030ADC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3093A6B62BD2B0190030ADC6 /* Assets.xcassets in Resources */,
+				3093A6A82BD2A7080030ADC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789968322AE5B798001C3028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7899683F2AE5B799001C3028 /* Preview Assets.xcassets in Resources */,
+				7899683C2AE5B799001C3028 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3093A6942BD2A7050030ADC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3093A6BB2BD2C3F00030ADC6 /* Persistence.swift in Sources */,
+				3093A6A42BD2A7050030ADC6 /* WaterWidgets.swift in Sources */,
+				3093A6B42BD2A9580030ADC6 /* WaterWidgetEntryView.swift in Sources */,
+				3093A6BA2BD2C3B10030ADC6 /* WaterDrops.xcdatamodeld in Sources */,
+				3093A6B82BD2B79F0030ADC6 /* ContentView.swift in Sources */,
+				3093A6B92BD2C3420030ADC6 /* LogManager.swift in Sources */,
+				3093A6C02BD2D0160030ADC6 /* LogWaterIntent.swift in Sources */,
+				3093A6B52BD2AEA60030ADC6 /* BottleView.swift in Sources */,
+				3093A6B22BD2A7EB0030ADC6 /* Provider.swift in Sources */,
+				3093A6A02BD2A7050030ADC6 /* WaterWidgetsBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789968302AE5B798001C3028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7899684D2AE5BFC5001C3028 /* LogManager.swift in Sources */,
+				7899684B2AE5BF58001C3028 /* BottleView.swift in Sources */,
+				789968412AE5B799001C3028 /* Persistence.swift in Sources */,
+				7899683A2AE5B798001C3028 /* ContentView.swift in Sources */,
+				789968442AE5B799001C3028 /* WaterDrops.xcdatamodeld in Sources */,
+				789968382AE5B798001C3028 /* WaterDropsApp.swift in Sources */,
+				3093A6BF2BD2D0160030ADC6 /* LogWaterIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3093A6AB2BD2A7080030ADC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3093A6972BD2A7050030ADC6 /* WaterWidgetsExtension */;
+			targetProxy = 3093A6AA2BD2A7080030ADC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3093A6AE2BD2A7080030ADC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WaterWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J824YBPD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Danny.WaterDrops.WaterWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3093A6AF2BD2A7080030ADC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WaterWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J824YBPD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Danny.WaterDrops.WaterWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		789968452AE5B799001C3028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		789968462AE5B799001C3028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		789968482AE5B799001C3028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WaterChecker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterDrops/Preview Content\"";
+				DEVELOPMENT_TEAM = 4J824YBPD8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Danny.WaterDrops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		789968492AE5B799001C3028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WaterChecker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterDrops/Preview Content\"";
+				DEVELOPMENT_TEAM = 4J824YBPD8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Danny.WaterDrops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3093A6AD2BD2A7080030ADC6 /* Build configuration list for PBXNativeTarget "WaterWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3093A6AE2BD2A7080030ADC6 /* Debug */,
+				3093A6AF2BD2A7080030ADC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7899682F2AE5B798001C3028 /* Build configuration list for PBXProject "WaterChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789968452AE5B799001C3028 /* Debug */,
+				789968462AE5B799001C3028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789968472AE5B799001C3028 /* Build configuration list for PBXNativeTarget "WaterChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789968482AE5B799001C3028 /* Debug */,
+				789968492AE5B799001C3028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		789968422AE5B799001C3028 /* WaterDrops.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				789968432AE5B799001C3028 /* WaterDrops.xcdatamodel */,
+			);
+			currentVersion = 789968432AE5B799001C3028 /* WaterDrops.xcdatamodel */;
+			path = WaterDrops.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7899682C2AE5B798001C3028 /* Project object */;
+}
